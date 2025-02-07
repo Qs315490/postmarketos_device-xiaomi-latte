@@ -1,0 +1,32 @@
+# Reference: <https://postmarketos.org/deviceinfo>
+# Please use double quotes only. You can source this file in shell
+# scripts.
+
+deviceinfo_format_version="0"
+deviceinfo_name="XiaoMi Pad2"
+deviceinfo_manufacturer="XiaoMi"
+deviceinfo_codename="xiaomi-latte"
+deviceinfo_year="2015"
+deviceinfo_dtb=""
+deviceinfo_arch="x86_64"
+
+# Device related
+deviceinfo_chassis="tablet"
+deviceinfo_external_storage="false"
+deviceinfo_gpu_accelerated="true"
+
+# Bootloader related
+deviceinfo_flash_method="none"
+deviceinfo_initfs_compression="zstd:default"
+deviceinfo_generate_grub_config="true"
+deviceinfo_kernel_cmdline_append="mitigations=off"
+
+# filesystem
+deviceinfo_boot_filesystem="fat32"
+# deviceinfo_swap_size_recommended="2048"
+
+# USB
+deviceinfo_usb_idVendor="0x18d1"
+deviceinfo_usb_idProduct="0x2d00"
+deviceinfo_usb_serialnumber="0"
+deviceinfo_usb_network_function="ncm.usb0"
