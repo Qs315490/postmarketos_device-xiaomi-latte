@@ -28,9 +28,10 @@ build() {
 
 package() {
 	devicepkg_package $startdir $pkgname
+	echo "/lib/firmware" >> "$pkgdir/usr/share/mkinitfs/files/00-$pkgname-modules.files"
 }
 
 sha512sums="
 7266127b624c85702b4564bdbdecb8170b5a3bcbaa0bd3bd59cb393bfbb0fd94987e2bf1243dae452fc2f475229228df4f29b8e2eed86140783b20f9260e3818  deviceinfo
-e8064f39376b5c77872c7853240d33026cacaf560cd377fbf75561fd4cf324d5cc3b197ce4dd7801dbed4c22f68b760b370311d6260051e1d8cf1c5ff727490d  modules-initfs
+543456f2fc5eba0b50f5f474b451b508a40b2cfd872c1cadb17caf0c08a249e62b1883be472f70cedb21d42b0a162fa52a87f14b640f8b198cf17d9f5e391e47  modules-initfs
 "
