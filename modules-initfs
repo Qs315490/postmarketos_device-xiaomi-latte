@@ -29,3 +29,5 @@ btrfs
 dwc3
 dwc3_pci
 dec3_omap
+
+snd_soc_rt5659
