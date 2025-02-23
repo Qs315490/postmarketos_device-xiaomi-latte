@@ -19,7 +19,7 @@ deviceinfo_gpu_accelerated="true"
 deviceinfo_flash_method="none"
 deviceinfo_initfs_compression="zstd:default"
 deviceinfo_generate_grub_config="true"
-deviceinfo_kernel_cmdline_append="mitigations=off"
+deviceinfo_kernel_cmdline_append="mitigations=off i2c_hid.debug"
 
 # filesystem
 deviceinfo_boot_filesystem="fat32"
