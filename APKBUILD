@@ -15,7 +15,6 @@ depends="
 	btrfs-progs
 	irqbalance
 	udisks2
-	intel-media-driver intel-ucode mesa-vulkan-intel
 "
 makedepends="devicepkg-dev"
 source="
